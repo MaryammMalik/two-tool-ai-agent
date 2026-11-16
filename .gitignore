@@ -1,0 +1,20 @@
+# Secrets — never commit a real .env file
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Agent output files and run logs (a sample log is kept in examples/)
+output/
+*.log
+!examples/sample_run.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
